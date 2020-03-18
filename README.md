@@ -114,7 +114,7 @@ Savvy is an app for students that allows any students from any major and any com
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://github.com/SavvyLLC/Savvy-Submission1/blob/master/Wire_Frame_Screenshot.png" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
