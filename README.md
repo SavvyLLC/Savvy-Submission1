@@ -133,15 +133,15 @@ Savvy is an app for students that allows any students from any major and any com
 
 <img src="https://imgur.com/1e6dVZc.png" width=600>
 
-<img src="https://imgur.com/OQnrC5Q.png" width 600>
+<img src="https://imgur.com/OQnrC5Q.png" width=600>
 
-<img src="https://imgur.com/3L6xYpU.png" width 600>
+<img src="https://imgur.com/3L6xYpU.png" width=600>
 
-<img src="https://imgur.com/seXTrSV.png" width 600>
+<img src="https://imgur.com/seXTrSV.png" width=600>
 
-<img src="https://imgur.com/CEQkdOK.png" width 600>
+<img src="https://imgur.com/CEQkdOK.png" width=600>
 
-<img src="https://imgur.com/6Lek5vs.png" width 600>
+<img src="https://imgur.com/6Lek5vs.png" width=600>
 
 
 . Screen Archetypes
@@ -182,6 +182,7 @@ userObject.attemptSignIn { (posts: [PFObject]?, error: Error?) in
   }
 }
 Upload documents
+
 PFQuery[] userDocuments = PFQuery(className:"Post");
 userDocuments.attemptUpload { (posts: [PFObject]?, error: Error?) in
    if(error) {
