@@ -128,3 +128,96 @@ Savvy is an app for students that allows any students from any major and any com
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+<img src="https://i.imgur.com/BMwYWkm.png" width=600>
+
+<img src="https://imgur.com/1e6dVZc.png" width=600>
+
+<img src="https://imgur.com/OQnrC5Q.png" width 600>
+
+<img src="https://imgur.com/3L6xYpU.png" width 600>
+
+<img src="https://imgur.com/seXTrSV.png" width 600>
+
+<img src="https://imgur.com/CEQkdOK.png" width 600>
+
+<img src="https://imgur.com/6Lek5vs.png" width 600>
+
+
+. Screen Archetypes
+Login
+(Update/PUT) Allow users to login
+Sign Up
+(Create/POST)Uploading Resume, Transcripts and Brief Description
+(Create/POST)Allow Users to Add Skills
+(Delete/DELETE)Allow user to remove skills
+(Delete/DELETE)Allow user to remove resume, transcript and description
+Edit Profile Screen
+(Update/PUT)Allow Users to Add Skills
+(Update/PUT)Uploading Resume, Transcripts and Brief Description
+(Delete/DELETE)Allow user to remove skills
+(Delete/DELETE)Allow user to remove resume, transcript and description
+Explore Screen
+(Read/GET)Filtering through students/companies
+(Read/GET)Allow Companies to filter students by skill
+(Create/POST)Allow companies and students to like other candidates
+
+
+Matches/Top Picks
+(Read/GET)View Matches
+(Read/GET)View Potential Top PIcks
+(Delete/DELETE)Unmatch a pick
+
+Messages
+(Read/GET) Matches for Companies and Students *Chatting Screen
+(Create/POST) Create message to other user
+Parse Query Code Snippet:
+Login
+PFQuery userObject = PFQuery(className:"Put")
+userObject.attemptSignIn { (posts: [PFObject]?, error: Error?) in
+   if(error) {
+      Log.e(TAG, "ERROR: Could not sign in user ");
+   } else {
+      Log.e(TAG, "Sign in was successful! ");
+  }
+}
+Upload documents
+PFQuery[] userDocuments = PFQuery(className:"Post");
+userDocuments.attemptUpload { (posts: [PFObject]?, error: Error?) in
+   if(error) {
+      Log.e(TAG, "ERROR: Could not upload users documents ");
+   } else if let posts = posts {
+      Log.e(TAG, "Sign In with documents! ");
+  }
+}
+
+Edit Profile
+PFQuery editProfileAddUpdate = PFQuery(className:"Put");
+editProfile.updateUserProfile { (posts: [PFObject]?, error: Error?) in
+   if(error) {
+      Log.e(TAG, "ERROR: Could not upload users documents ");
+   } else if let posts = posts {
+      Log.e(TAG, "Updating user profile is successful! ");
+  }
+}
+
+PFQuery editProfileRemove = PFQuery(className:"Delete");
+editProfileRemove.updateUserProfileRemove { (posts: [PFObject]?, error: Error?) in
+   if(error) {
+      Log.e(TAG, "ERROR: Could not upload remove from user’s profile");
+   } else if let posts = posts {
+      Log.e(TAG, "Successfully removed from user’s profile ");
+  }
+}
+Get Messages
+PFQuery getMessages = PFQuery(className:"Get")
+getMessages.attemptToQueryMessages { (posts: [PFObject]?, error: Error?) in
+   if(error) {
+      Log.e(TAG, "ERROR: Could not query messages");
+   } else {
+      Log.e(TAG, "Querying of messages was successful! ");
+  }
+}
+
+
+
