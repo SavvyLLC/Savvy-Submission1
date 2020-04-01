@@ -143,7 +143,7 @@ Savvy is an app for students that allows any students from any major and any com
 
 <img src="https://imgur.com/6Lek5vs.png" width=600>
 
-
+```
 . Screen Archetypes
 Login
 (Update/PUT) Allow users to login
@@ -219,6 +219,8 @@ getMessages.attemptToQueryMessages { (posts: [PFObject]?, error: Error?) in
       Log.e(TAG, "Querying of messages was successful! ");
   }
 }
+
+```
 
 
 
