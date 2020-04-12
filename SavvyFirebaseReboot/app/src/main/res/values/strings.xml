@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SavvyFirebaseReboot</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+
+    <string-array name="schools">
+        <item>Florida A^M University</item>
+        <item>Morgan State University</item>
+        <item>Howard University</item>
+        <item>North Carolina A^T University</item>
+        <item>Other</item>
+    </string-array>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_upload_documents">UploadDocuments</string>
+
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "590387244777",
+    "firebase_url": "https://savvyllcreboot.firebaseio.com",
+    "project_id": "savvyllcreboot",
+    "storage_bucket": "savvyllcreboot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590387244777:android:7992b7d6f7323fbb6b0a78",
+        "android_client_info": {
+          "package_name": "com.codepath.jmckinley.savvyfirebasereboot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590387244777-57kgfjc7m4mvh5gitghvbkk3eieg366s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codepath.jmckinley.savvyfirebasereboot",
+            "certificate_hash": "d958f3809631676db79223e7a692548c6619e57d"
+          }
+        },
+        {
+          "client_id": "590387244777-cl9gidflcmdr4p6asisnfcl407v8gchs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC91wth-Zf5JHZt_V19_GFrWXoTTNGKmFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590387244777-cl9gidflcmdr4p6asisnfcl407v8gchs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

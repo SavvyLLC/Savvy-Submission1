@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadDocuments">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:src="@drawable/savvy_logo"
+
+        />
+
+    <TextView
+        android:layout_below="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="20dp"
+        android:text="Firebase Storage"
+        android:id="@+id/firebaseStorageText"
+
+        />
+
+    <EditText
+        android:layout_below="@id/firebaseStorageText"
+        android:id="@+id/txt_pdfName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Upload Resume "
+        android:textSize="22dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:layout_below="@id/txt_pdfName"
+        android:id="@+id/btn_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="40dp"
+        android:text="Upload"
+
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+
+
+
+</RelativeLayout>
