@@ -55,14 +55,14 @@ Savvy is an app for students that allows any students from any major and any com
 **Required Must-have Stories**
 
 
-* Allow users to login
-* Uploading Resume, Transcripts and Brief Description
-* Allow Users to Add Skills
-* Allow Companies to filter students by skill
-* Allow companies and students to swip across different candidates
-* Matching Companies and Students
-* Chatting with Recruiters
-* Video Call Recruiter(Twillio API)
+[X] Allow users to login
+[X] Uploading Resume, Transcripts and Brief Description
+[ ] Allow Users to Add Skills
+[ ] Allow Companies to filter students by skill
+[ ] Allow companies and students to swip across different candidates
+[ ] Matching Companies and Students
+[ ] Chatting with Recruiters
+[ ] Video Call Recruiter(Twillio API)
 
 **Optional Nice-to-have Stories**
 
